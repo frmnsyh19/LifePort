@@ -1,193 +1,136 @@
-#bgheaderone-1{
-  background-image: url('/image/bgheaderone-1.jpg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
 }
 
-#bgheaderone-2{
-  background-image: url('/image/bgheaderone-2.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-
-#bgheaderone-3{
-  background-image: url('/image/bgheaderone-3.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+.swiper {
+  width: 100%;
+  height: 100%;
 }
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
-#benner1{
-  background-image: url('/image/benner1.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; 
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-#posts1 {
-   background-image: url('/image/market.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
+#logo {
+  background-image: url('/image/newlifeport.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
 }
 
-
-
-#posts2 {
-   background-image: url('/image/posts1.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+#content1 {
+  background-image: url('/image/healthy.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-#posts3 {
-   background-image: url('/image/posts2.jpg');
-   /* Replace with your image path */
   background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
 }
 
 
-#posts4 {
-  background-image: url('/image/market2.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+#content2 {
+  background-image: url('/image/food.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  opacity: 0.8;
 }
 
 
-#posts5 {
-  background-image: url('/image/posts3.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+#content3 {
+  background-image: url('/image/sport.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-
-#tranding1{
-  background-image: url('/image/post5.jpeg');
-   /* Replace with your image path */
   background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
 }
 
 
-#tranding2{
-  background-image: url('/image/posts6.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+#content4 {
+  background-image: url('/image/fashion.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  opacity: 0.8;
 }
 
 
-#trandingpost1{
-  background-image: url('/image/posts1.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+#imagenews {
+  background-image: url('/image/newshealthy.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  
+  background-size: cover;
+}
+
+
+#newshealthy {
+  background-image: url('/image/headlinenews1.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+}
+
+
+#news2 {
+  background-image: url('/image/headlinenews2.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
 }
 
 
 
-#trandingpost2{
-  background-image: url('/image/market.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
+#news3 {
+  background-image: url('/image/headlinenews3.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-  
-}
-
-#trandingpost3{
-   background-image: url('/image/posts3.jpg');
-   /* Replace with your image path */
   background-size: cover;
-  background-position: center;
-  
 }
 
 
-#bennerimg2{
-   background-image: url('/image/post5.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
+
+#news4 {
+  background-image: url('/image/headlinenews4.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
+  background-size: cover;
 }
 
-#benner3 {
-   background-image: url('/image/benner2.jpg');
-   /* Replace with your image path */
-  background-size: cover;
+#news5{
+   background-image: url('/image/headlinenews5.png');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
-}
-
-
-#mining1{
-   background-image: url('/image/market2.jpg');
-   /* Replace with your image path */
   background-size: cover;
-  background-position: center;
 }
 
 
-#mining2{
-   background-image: url('/image/post5.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-}
 
 
-#mining3{
-   background-image: url('/image/posts1.jpg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-}
-
-
-#mining4{
-   background-image: url('/image/posts2.jpg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-}
-
-
-#mining5{
-   background-image: url('/image/market.jpeg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-}
-
-#mining6{
-   background-image: url('/image/posts6.jpg');
-   /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-}
