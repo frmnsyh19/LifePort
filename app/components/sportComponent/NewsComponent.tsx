@@ -1,13 +1,16 @@
+import Image from 'next/image'
 import React from 'react'
 
 const NewsComponent = () => {
   return (
     <>
       <div className=" w-full lg:w-[65%] p-2">
-        <div className=' w-full flex flex-col gap-2 p-2'>
-          <div className=' w-full h-96 border border-fuchsia-600 lg:flex hidden' id='imagenews'></div>
-          <div className=' w-full h-96 border border-fuchsia-600 flex lg:hidden' id='newshealthy'></div>
-          <small className=' text-sm text-gray-400 italic'>Posisi Duduk yang Tepat untuk Mencegah
+        <div className=' w-full flex flex-col gap-2 p-0 lg:p-2'>
+          <div className=' w-full h-96 border border-fuchsia-600 lg:flex hidden' id='imagenews'>
+          </div>
+          <div className=' w-full h-[25rem] border border-fuchsia-600 flex lg:hidden'
+            id='newshealthy'></div>
+          <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>Posisi Duduk yang Tepat untuk Mencegah
             Gangguan Otot, Tulang dan Mata Saat Bekerja</small>
         </div>
         <div className=' w-full text-wrap mt-2 p-3 flex flex-col '>
