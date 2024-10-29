@@ -4,7 +4,7 @@ const NewsFood2 = () => {
   return (
     <>
       <div className=' w-full flex flex-col gap-2 p-2 lg:p-2'>
-        <div className=' w-full h-96 flex'>
+        <div className=' w-full h-60 lg:h-96 flex'>
           <img src="/image/Telor.jpg" className='w-full h-full' alt="" />
         </div>
         {/* gambar */}

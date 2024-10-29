@@ -25,7 +25,7 @@ export const NewsUpdate = () => {
           <div className=' w-full gap-1 flex flex-row items-center'>
             <FiCalendar className=' text-base' />
             <span className=' text-base'>
-              26 October 2024
+              26 Oktober 2024
             </span>
           </div>
           <span className=' text-slate-400 text-base'>
@@ -49,7 +49,7 @@ export const NewsUpdate = () => {
           <div className=' w-full gap-1 flex flex-row items-center'>
             <FiCalendar className=' text-base' />
             <span className=' text-base'>
-              26 October 2024
+              26 Oktober 2024
             </span>
           </div>
           <span className=' text-slate-400 text-base'>
@@ -75,7 +75,7 @@ export const NewsUpdate = () => {
           <div className=' w-full gap-1 flex flex-row items-center'>
             <FiCalendar className=' text-base' />
             <span className=' text-base'>
-              26 October 2024
+              26 Oktober 2024
             </span>
           </div>
           <span className=' text-slate-400 text-base'>
@@ -93,17 +93,18 @@ export const NewsUpdate = () => {
       <div data-aos="fade-down" className="w-full lg:w-[95%] gap-2 flex-col justify-start items-center flex  lg:flex-row">
         <div className=' w-full lg:w-[40rem] h-72' id='news4'></div>
         <div className=' w-full justify-between gap-5 flex flex-col p-2'>
-          <span className=' text-xl text-slate-400 font-bold'>
-            {'"Jogging Malam, Tren Sehat Baru di Kalangan Pekerja Muda"'}
+          <span className=' capitalize text-xl text-slate-400 font-bold'>
+            {'"bersepeda adalah olahraga kardio yang lebih bagus dari pada lari apakah benar? kesehatan yang tak kalah penting dari olahraga pagi."'}
           </span>
           <div className=' w-full gap-1 flex flex-row items-center'>
             <FiCalendar className=' text-base' />
             <span className=' text-base'>
-              26 October 2024
+              26 Oktober 2024
             </span>
           </div>
           <span className=' text-slate-400 text-base'>
-            Manfaat Kesehatan dari Jogging Malam, Bagi Tri dan banyak orang lainnya, jogging malam membawa manfaat kesehatan yang tak kalah penting dari olahraga pagi.
+            Di tengah tren gaya hidup sehat, bersepeda semakin populer sebagai pilihan olahraga kardio,
+            terutama bagi kalangan muda yang berusaha menjaga kesehatan
           </span>
           <div className=' w-40'>
             <Link href='/sport'>
@@ -123,7 +124,7 @@ export const NewsUpdate = () => {
           <div className=' w-full gap-1 flex flex-row items-center'>
             <FiCalendar className=' text-base' />
             <span className=' text-base'>
-              26 October 2024
+              26 Oktober 2024
             </span>
           </div>
           <span className=' text-slate-400 text-base'>

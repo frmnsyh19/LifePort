@@ -5,7 +5,7 @@ export const NewsFood1 = () => {
     <>
       <div className=' w-full flex flex-col gap-2 p-2 lg:p-2'>
         <div className=' w-full h-96 flex'>
-          <img src="/image/headlinenews2.jpg" className='w-full h-full' alt="" />
+          <img src="/image/imgfood1.jpg" className='w-full h-full' alt="" />
         </div>
         {/* gambar */}
         <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>

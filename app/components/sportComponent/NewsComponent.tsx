@@ -6,7 +6,9 @@ const NewsComponent = () => {
     <>
       <div className=" w-full lg:w-[65%] p-2">
         <div className=' w-full flex flex-col gap-2 p-0 lg:p-2'>
-          <div className=' w-full h-96  lg:flex hidden' id='imagenews'>
+          <div className=' w-full h-[25rem]  lg:flex hidden'>
+            <img src="/image/newshealthy.jpg" className=' w-full h-full' alt="" />
+
           </div>
           <div className=' w-full h-[25rem]  flex lg:hidden'
             id='newshealthy'></div>

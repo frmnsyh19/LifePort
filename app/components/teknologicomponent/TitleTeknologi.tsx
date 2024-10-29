@@ -20,7 +20,7 @@ const TitleTeknologi = () => {
               </div>
               <div className=' p-2 flex flex-row gap-1'>
                 <FiCalendar className=' text-xl text-gray-400' />
-                <p className=' text-gray-400'>26 October 2024</p>
+                <p className=' text-gray-400'>26 Oktober 2024</p>
               </div>
             </div>
           </div>
