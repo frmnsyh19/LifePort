@@ -14,7 +14,7 @@ export const Title = () => {
               Posisi Duduk yang Tepat untuk Mencegah
               Gangguan Otot, Tulang dan Mata Saat Bekerja
             </span>
-            <div className=' flex flex-row'>
+            <div className=' flex flex-col lg:flex-row'>
               <div className=' p-2 flex flex-row gap-1'>
                 <FiUser className=' text-xl text-gray-400' />
                 <p className=' text-gray-400'>Andika Chris Ardiansyah - 2371510690,</p>
