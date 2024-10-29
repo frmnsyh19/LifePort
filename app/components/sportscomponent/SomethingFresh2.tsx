@@ -21,7 +21,8 @@ export const SomethingFresh2 = () => {
               </div>
               <div className=' w-full flex flex-col p-1 gap-1 justify-start'>
                 <span className=' text-base text-indigo-800'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing.
+                  bersepeda adalah olahraga kardio yang lebih bagus
+                  dari pada lari apakah benar?
                 </span>
                 <div className=' flex w-full flex-row justify-start items-center gap-1 '>
                   <FiCalendar className=' text-base text-gray-400' />
