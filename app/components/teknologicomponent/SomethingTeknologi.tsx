@@ -17,8 +17,7 @@ const SomethingTeknologi = () => {
           <div className=' w-full flex flex-col justify-start items-center'>
             <div className="w-full flex flex-row justify-start items-center gap-2 p-2">
               <div className=' w-48 h-20 '>
-                <img src="/image/headlinenews5.png" className='
-                 w-full h-full' alt="" />
+                <img src="/image/headlinenews5.png" className='w-full h-full' alt="" />
               </div>
               <div className=' w-full flex flex-col p-1 gap-1 justify-start'>
                 <span className=' text-base text-indigo-800'>

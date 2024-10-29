@@ -4,7 +4,7 @@ import React from 'react'
 export const Footer = () => {
   return (
     <>
-      <footer className="footer footer-center bg-indigo-900 text-primary-content p-10">
+      <footer className="footer footer-center bg-indigo-900  p-10 text-white">
         <aside>
           <Image src={'/image/logo.png'} width={200} height={150} alt='' />
           <p className="font-bold">

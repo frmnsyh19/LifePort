@@ -18,7 +18,7 @@ const TitleFood = () => {
             </div>
             <div className=' p-2 flex flex-row items-center gap-1'>
               <FiCalendar className=' text-sm lg:text-base text-gray-400' />
-              <p className=' text-sm lg:text-base text-gray-400'>26 October 2024</p>
+              <p className=' text-sm lg:text-base text-gray-400'>26 Oktober 2024</p>
             </div>
           </div>
         </div>

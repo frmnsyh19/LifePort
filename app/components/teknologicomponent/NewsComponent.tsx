@@ -9,7 +9,7 @@ const NewsComponent = () => {
             <img src="/image/teknologilanscape.jpg" className=' w-full h-full' alt="" />
           </div>
           <div className=' w-full h-[25rem]  flex lg:hidden'>
-            <img src="/image/teknologilanscape.jpg" className=' w-full h-full' alt="" />
+            <img src="/image/headlinenews5.png" className=' w-full h-full' alt="" />
           </div>
           <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>Smartwatch: Sahabat Digital Gen Z untuk Monitoring Kesehatan Sehari-hari</small>
         </div>
