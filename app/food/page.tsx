@@ -1,7 +1,6 @@
 import React from 'react'
 import TitleFood from '../components/FoodComponent/TitleFood'
 import { NewsFood1 } from '../components/FoodComponent/NewsFood1'
-import { SomethingFresh2 } from '../components/sportscomponent/SomethingFresh2'
 import NavbarMobile from '../components/NavbarMobile'
 import NavbarPc from '../components/NavbarPc'
 import { Footer } from '../components/Footer'
