@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiCalendar, FiUser } from 'react-icons/fi'
+import { FiCalendar } from 'react-icons/fi'
 import { CategoriNews } from '../CategoriNews'
 
 
