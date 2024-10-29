@@ -6,10 +6,10 @@ export const Rows1 = () => {
       <div className=" w-full lg:w-[65%] p-2">
         <div className=' w-full flex flex-col gap-2 p-0 lg:p-2'>
           <div className=' w-full h-96  lg:flex hidden'>
-            <img src="/fashion/kukulanscape.jpg" className=' w-full h-full' alt="" />
+            <img src="/fashion/kukufashion.jpg" className=' w-full h-full' alt="" />
           </div>
           <div className=' w-full h-[25rem]  flex lg:hidden'>
-            <img src="/fashion/kukulanscape.jpg" className=' w-full h-full' alt="" />
+            <img src="/fashion/kukufashion.jpg" className=' w-full h-full' alt="" />
           </div>
           <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>
             Kenapa Saat Ini Nail Art Menjadi Salah Satu Fashion Yang Menjadi Hal Wajib Untuk Wanita?
