@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { FiMenu } from "react-icons/fi"
 
 
@@ -20,11 +21,13 @@ const Dawer = () => {
             </div>
           </div>
           {/* Sidebar content here */}
-          <li className=""><a className=" text-base" href="#healhty">Healhty</a></li>
-          <li className="mt-5"><a className=" text-base" href="#food">Food</a></li>
-          <li className="mt-5"><a className=" text-base" href="#sport">Sport</a></li>
-          <li className="mt-5"><a className=" text-base" href="#fashion">Fashion</a></li>
-          <li className="mt-5"><a className=" text-base" href="#tecnology">Technology</a></li>
+          <li className="mt-5"><Link className=" text-base" href="/">Home</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/about">About</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/healthy">Healhty</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/food">Food</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/sport">Sport</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/fashion">Fashion</Link></li>
+          <li className="mt-5"><Link className=" text-base" href="/technology">Technology</Link></li>
         </ul>
       </div>
     </div>

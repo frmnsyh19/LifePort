@@ -90,6 +90,13 @@ body {
   background-size: cover;
 }
 
+#sportnews1{
+  background-image: url('/image/sportnews1.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+}
+
 
 #newshealthy {
   background-image: url('/image/headlinenews1.jpg');
@@ -131,6 +138,20 @@ body {
   background-size: cover;
 }
 
+
+#sportnews2{
+  background-image: url('/image/newssport1.jpg');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+}
+
+#newsheadlinesport2{
+  background-image: url('/image/newssports2.png');
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+}
 
 
 

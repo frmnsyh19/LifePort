@@ -18,25 +18,25 @@ export const CategoriNews = () => {
           <div className=' w-full h-12 items-center bg-slate-200 gap-1 hover:bg-slate-300 justify-between flex p-2'>
             <span className=' text-base text-neutral'>Sport</span>
             <span className=' mr-1 text-end'>
-              10
+              2
             </span>
           </div>
           <div className=' w-full h-12 items-center bg-slate-200 hover:bg-slate-300 justify-between flex p-2'>
             <span className=' text-base text-neutral'>Food</span>
             <span className=' mr-1 text-end'>
-              10
+              2
             </span>
           </div>
           <div className=' w-full h-12 items-center bg-slate-200 hover:bg-slate-300 justify-between flex p-2'>
             <span className=' text-base text-neutral'>Fashion</span>
             <span className=' mr-1 text-end'>
-              10
+              1
             </span>
           </div>
           <div className=' w-full h-12 items-center bg-slate-200 hover:bg-slate-300 justify-between flex p-2'>
             <span className=' text-base text-neutral'>Heathly</span>
             <span className=' mr-1 text-end'>
-              10
+              1
             </span>
           </div>
         </div>
