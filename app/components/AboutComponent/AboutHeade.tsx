@@ -41,7 +41,7 @@ const AboutHeade = () => {
           </div>
           <div className=" p-1 w-full flex justify-center items-center lg:w-1/3">
             <img
-              src="/image/logo.png"
+              src="/image/newlogo.png"
               className=" w-60 lg:w-full lg:h-full"
               alt=""
             />
