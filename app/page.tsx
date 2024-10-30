@@ -6,14 +6,16 @@ import Headline from "./components/Headline";
 import { NewsUpdate } from "./components/NewsUpdate";
 import { CategoriNews } from "./components/CategoriNews";
 import { Footer } from "./components/Footer";
+import Thumbnail from "./components/Thumbnail";
 // Import Swiper React components
 
-const Swipers = React.lazy(() => import('./components/Swipers'));
+const Swipers = React.lazy(
+  () => import("./components/Swipers")
+);
 
 export default function Home() {
   return (
     <>
-
       <div className=" w-full flex flex-col bg-slate-100">
         <NavbarPc />
         <NavbarMobile />
@@ -25,8 +27,9 @@ export default function Home() {
             <div className="w-full lg:w-[70%] flex-col justify-center items-center flex gap-7 ">
               <NewsUpdate />
             </div>
-            <div className=" w-full lg:w-[35%] p-1">
+            <div className=" w-full lg:w-[35%] gap-3 p-1">
               <CategoriNews />
+              <Thumbnail />
             </div>
           </div>
         </div>

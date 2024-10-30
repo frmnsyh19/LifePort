@@ -5,38 +5,39 @@ const AboutHeade = () => {
     <>
       <div className="w-full bg-slate-100 flex justify-center items-center lg:h-[37rem] p-3">
         <div className=" w-full lg:w-[85%] lg:flex-row flex-col-reverse gap-7 lg:gap-0   flex justify-around items-center p-1">
-          <div className=" p-1 w-full  lg:w-1/2  flex flex-col gap-3">
+          <div className=" p-1 w-full lg:w-1/2  flex flex-col gap-3">
+            <span className="  font-bold text-lg text-indigo-800">
+              Flosofi Portal
+            </span>
             <span className=" text-justify text-base text-gray-500">
-              Logo “LifePort” ini dirancang untuk
-              portal berita lifestyle dengan tema
-              Healthy, Technology, Sport, Food,
-              dan Fashion. Elemen-elemen kunci
-              dalam logo:
+              {`
+              Lifeport adalah jembatan antara tren modern dan 
+              gaya hidup sehat yang seimbang. Nama Lifeport menggambarkan sebuah "port" 
+              atau pelabuhan yang menjadi tempat bagi generasi muda untuk berlabuh, memulai, 
+              dan mengakses semua yang diperlukan untuk mencapai versi terbaik dari hidup mereka. 
+              Menghadirkan keseimbangan antara aspek fisik, mental, dan sosial, Lifeport berfungsi sebagai panduan, menghubungkan informasi relevan yang membantu pengunjung untuk tetap tangguh, berdaya, dan berkembang dalam dunia yang terus berubah.
+              `}
             </span>
             <span className=" text-justify text-wrap text-base text-gray-500">
-              Font Modern dan Futuristik:
-              Menyiratkan inovasi dan kemajuan,
-              cocok untuk tema teknologi dan
-              modernitas. Warna Hijau dan Biru:
-              Hijau melambangkan kesehatan dan
-              keseimbangan, sementara biru
-              menekankan stabilitas dan
-              profesionalisme. Garis Sirkuit
-              Digital: Mewakili teknologi dan
-              keterhubungan antar tema berita.
+              Dengan warna biru yang mencerminkan
+              ketenangan dan stabilitas, serta
+              hijau yang melambangkan kesehatan
+              dan kebaruan, Lifeport membawa
+              energi positif, inspirasi, dan
+              langkah nyata dalam setiap artikel,
+              tips, dan panduan. Ini bukan sekadar
+              media ini adalah titik kumpul untuk
+              menghidupkan visi hidup yang aktif,
+              sehat, dan seimbang bagi setiap
+              pengunjungnya.
             </span>
             <span className=" text-justify text-wrap text-base text-gray-500">
-              Simbol Daun/Gelombang: Sentuhan
-              alami untuk topik Healthy dan
-              keseimbangan. Desain Sederhana:
-              Memberikan kesan rapi dan elegan,
-              mendukung berbagai tema tanpa
-              terlihat berlebihan. Keseluruhan
-              logo menyampaikan integrasi antara
-              kehidupan modern dan elemen alami,
-              sesuai untuk portal berita yang
-              menyajikan informasi seputar gaya
-              hidup seimbang.
+              <span className=" text-gray-500 font-bold text-indigo-800">
+                Tema Rubrik Berita Healthy,
+              </span>{" "}
+              <br />
+              Healthy, Technology, Sport, Food &
+              Fashion
             </span>
           </div>
           <div className=" p-1 w-full flex justify-center items-center lg:w-1/3">
