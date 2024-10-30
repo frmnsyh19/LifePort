@@ -5,7 +5,6 @@ import React from "react";
 import "../style.css";
 
 import Link from "next/link";
-import Button from "@mui/material/Button";
 
 const Headline = () => {
   return (
