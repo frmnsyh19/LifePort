@@ -20,11 +20,9 @@ const Headline = () => {
             />
             <div className=" w-full p-2 flex justify-start items-center">
               <Link href="/about">
-                <Button
-                  variant="contained"
-                  className="bg-indigo-900 capitalize ml-1 lg:ml-4 text-sm text-white font-bold lg:text-lg p-2 lg:p-2">
-                  Selengkapnya tentang kami
-                </Button>
+                <button className=" lg:ml-4 btn text-sm   btn-sm lg:btn-md bg-indigo-900 capitalize lg:text-base text-white font-bold">
+                  Selengkapnya Tentang Kami
+                </button>
               </Link>
             </div>
           </div>

@@ -3,7 +3,7 @@ import React from "react";
 const AboutHeade = () => {
   return (
     <>
-      <div className="w-full flex justify-center items-center lg:h-[37rem] p-3">
+      <div className="w-full bg-slate-100 flex justify-center items-center lg:h-[37rem] p-3">
         <div className=" w-full lg:w-[85%] lg:flex-row flex-col-reverse gap-7 lg:gap-0   flex justify-around items-center p-1">
           <div className=" p-1 w-full  lg:w-1/2  flex flex-col gap-3">
             <span className=" text-justify text-base text-gray-500">
@@ -42,7 +42,7 @@ const AboutHeade = () => {
           <div className=" p-1 w-full flex justify-center items-center lg:w-1/3">
             <img
               src="/image/logo.png"
-              className=" w-full h-full"
+              className=" w-60 lg:w-full lg:h-full"
               alt=""
             />
           </div>
