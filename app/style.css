@@ -7,9 +7,17 @@ body {
   height: 100%;
 }
 
+#bgabout {
+  background-image: url("/new/bgabout.jpg");
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+}
+
 body {
   background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial,
+    sans-serif;
   font-size: 14px;
   color: #000;
   margin: 0;
@@ -33,47 +41,43 @@ body {
 }
 
 #logo {
-  background-image: url('/image/newlifeport.jpg');
+  background-image: url("/image/newlifeport.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
 
 #content1 {
-  background-image: url('/image/healthy.jpg');
+  background-image: url("/image/healthy.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
-
 
 #content2 {
-  background-image: url('/image/food.jpg');
+  background-image: url("/image/food.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
-
 
 #content3 {
-  background-image: url('/image/sport.jpg');
+  background-image: url("/image/sport.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
-
 
 #content4 {
-  background-image: url('/image/fashion.jpg');
+  background-image: url("/image/fashion.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
   opacity: 0.8;
 }
-
 
 .swiper-slide img {
   display: block;
@@ -82,76 +86,65 @@ body {
   object-fit: cover;
 }
 
-
 #imagenews {
-  background-image: url('/image/newshealthy.jpg');
+  background-image: url("/image/newshealthy.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
 
-#sportnews1{
-  background-image: url('/image/sportnews1.jpg');
+#sportnews1 {
+  background-image: url("/image/sportnews1.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
-
 
 #newshealthy {
-  background-image: url('/image/headlinenews1.jpg');
+  background-image: url("/image/headlinenews1.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
-
 
 #news2 {
-  background-image: url('/image/headlinenews2.jpg');
+  background-image: url("/image/headlinenews2.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
-
-
 
 #news3 {
-  background-image: url('/image/headlinenews3.jpg');
+  background-image: url("/image/headlinenews3.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
-
-
 
 #news4 {
-  background-image: url('/image/newssports2.png');
+  background-image: url("/image/newssports2.png");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
 
-#news5{
-   background-image: url('/image/headlinenews5.png');
+#news5 {
+  background-image: url("/image/headlinenews5.png");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
 
-
-#sportnews2{
-  background-image: url('/image/newssport1.jpg');
+#sportnews2 {
+  background-image: url("/image/newssport1.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
 
-#newsheadlinesport2{
-  background-image: url('/image/newssports2.png');
+#newsheadlinesport2 {
+  background-image: url("/image/newssports2.png");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
 }
-
-
-
