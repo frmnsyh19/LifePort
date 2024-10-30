@@ -1,22 +1,31 @@
-import React from 'react'
+import React from "react";
 
-import '../style.css'
-
+import "../style.css";
 
 export const NewsSport = () => {
   return (
     <>
       {/* news1 */}
-      <div className=' w-full flex flex-col gap-2 p-0 lg:p-2'>
-        <div className=' w-full h-[25rem] lg:flex hidden'>
-          <img src="/image/sportnews1.jpg" className=' w-full h-full' alt="" />
+      <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+        <div className=" w-full h-[25rem] lg:flex hidden">
+          <img
+            src="/image/sportnews1.jpg"
+            className=" w-full h-full"
+            alt=""
+          />
         </div>
-        <div className=' w-full h-[20rem] flex lg:hidden'>
-          <img src="/image/newssports2.png" className=' w-full h-full' alt="" />
+        <div className=" w-full h-[20rem] flex lg:hidden">
+          <img
+            src="/image/newssports2.png"
+            className=" w-full h-full"
+            alt=""
+          />
         </div>
-        <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>bersepeda adalah olahraga kardio yang lebih bagus
-          dari pada lari apakah benar?</small>
-        <div className=' mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8'>
+        <small className=" ml-1 lg:ml-0 text-sm text-gray-400 italic">
+          bersepeda adalah olahraga kardio yang
+          lebih bagus dari pada lari apakah benar?
+        </small>
+        <div className=" mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8 p-1">
           <span>{`Di tengah tren gaya hidup sehat, bersepeda semakin populer sebagai pilihan olahraga kardio, 
           terutama bagi kalangan muda yang berusaha menjaga kesehatan dan kebugaran.
           Dengan manfaat yang luas, mulai dari mengurangi stres hingga menjadi aktivitas yang bisa
@@ -49,8 +58,8 @@ export const NewsSport = () => {
           Dengarkan tubuh Anda dan pilih olahraga yang sesuai dengan kondisi fisik."`}</span>
 
           <span>{`Jadi, apakah bersepeda lebih baik dari lari? Jawabannya tergantung pada kebutuhan dan preferensi  individu. Namun, bagi mereka yang mencari alternatif dengan risiko cedera yang lebih rendah dan manfaat 
-                  jangka panjang yang nyata, bersepeda bisa menjadi pilihan yang lebih tepat.` }</span>
-          <span className=' font-bold'>{`Kesimpulannya`}</span>
+                  jangka panjang yang nyata, bersepeda bisa menjadi pilihan yang lebih tepat.`}</span>
+          <span className=" font-bold">{`Kesimpulannya`}</span>
 
           <span>{`bersepeda adalah pilihan olahraga kardio yang ramah bagi persendian dan cocok 
                   untuk mereka yang ingin menghindari risiko cedera, terutama bagi individu dengan
@@ -62,5 +71,5 @@ export const NewsSport = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
