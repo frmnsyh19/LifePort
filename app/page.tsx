@@ -16,7 +16,7 @@ const Swipers = React.lazy(
 export default function Home() {
   return (
     <>
-      <div className=" w-full flex flex-col bg-slate-100">
+      <div className=" w-full flex flex-col bg-slate-100 text-neutral">
         <NavbarPc />
         <NavbarMobile />
 

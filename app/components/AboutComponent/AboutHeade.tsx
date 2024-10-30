@@ -7,7 +7,7 @@ const AboutHeade = () => {
         <div className=" w-full lg:w-[85%] lg:flex-row flex-col-reverse gap-7 lg:gap-0   flex justify-around items-center p-1">
           <div className=" p-1 w-full lg:w-1/2  flex flex-col gap-3">
             <span className="  font-bold text-lg text-indigo-800">
-              Flosofi Portal
+              Filosofi Portal
             </span>
             <span className=" text-justify text-base text-gray-500">
               {`
@@ -32,7 +32,7 @@ const AboutHeade = () => {
               pengunjungnya.
             </span>
             <span className=" text-justify text-wrap text-base text-gray-500">
-              <span className=" text-gray-500 font-bold text-indigo-800">
+              <span className=" text-lg  font-bold text-indigo-800">
                 Tema Rubrik Berita Healthy,
               </span>{" "}
               <br />
