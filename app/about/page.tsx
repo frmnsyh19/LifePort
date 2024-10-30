@@ -9,12 +9,14 @@ import AboutHeade from "../components/AboutComponent/AboutHeade";
 const page = () => {
   return (
     <>
-      <NavbarMobile />
-      <NavbarPc />
-      <HeaderAbout />
-      <AboutHeade />
-      <OurTeam />
-      <Footer />
+      <div className="w-full flex flex-col bg-white text-neutral">
+        <NavbarMobile />
+        <NavbarPc />
+        <HeaderAbout />
+        <AboutHeade />
+        <OurTeam />
+        <Footer />
+      </div>
     </>
   );
 };
