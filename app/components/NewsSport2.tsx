@@ -1,19 +1,28 @@
-import React from 'react'
+import React from "react";
 
 const NewsSport2 = () => {
   return (
     <>
-      <div className=' w-full flex flex-col gap-2 p-1 lg:p-2'>
-        <div className=' w-full h-[25rem] lg:flex hidden' >
-          <img src="/image/newssport1.jpg" className=' w-full h-full' alt="" />
+      <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+        <div className=" w-full h-[25rem] lg:flex hidden">
+          <img
+            src="/image/newssport1.jpg"
+            className=" w-full h-full"
+            alt=""
+          />
         </div>
-        <div className=' w-full h-[25rem] flex lg:hidden'>
-          <img src="/image/headlinenews4.jpg" className=' w-full h-full' alt="" />
+        <div className=" w-full h-72 flex lg:hidden">
+          <img
+            src="/image/headlinenews4.jpg"
+            className=" w-full h-full"
+            alt=""
+          />
         </div>
-        <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>
-          Jogging Malam, Tren Sehat Baru di Kalangan Pekerja Mud
+        <small className=" ml-1 lg:ml-0 text-sm text-gray-400 italic">
+          Jogging Malam, Tren Sehat Baru di
+          Kalangan Pekerja Mud
         </small>
-        <div className=' mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8'>
+        <div className=" mt-3 flex p-2 justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{` Jogging biasanya identik dengan aktivitas pagi hari, tetapi tren baru menunjukkan semakin
                   banyaknya orang yang memilih waktu malam untuk berolahraga. Bagi para pekerja kantoran,
                   jogging malam menjadi solusi untuk tetap bugar tanpa mengorbankan waktu kerja. Selain
@@ -35,11 +44,10 @@ const NewsSport2 = () => {
           sibuk, jogging sendiri tetap menjadi pilihan.`}</span>
           <span>{`Ayo Mulai Hidup Sehat dengan Jogging Malam!, Jogging malam kini bukan sekadar tren, melainkan solusi bagi banyak orang untuk tetap bugar dan rileks meski sibuk beraktivitas. Bagi Anda yang tertarik mencoba, mulailah dengan memilih rute yang aman dan selalu perhatikan keselamatan. Jogging malam dapat menjadi pilihan tepat untuk
                 menjaga kesehatan di tengah jadwal yang padat`}</span>
-
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default NewsSport2
+export default NewsSport2;

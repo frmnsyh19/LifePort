@@ -25,7 +25,7 @@ export const NewsSport = () => {
           bersepeda adalah olahraga kardio yang
           lebih bagus dari pada lari apakah benar?
         </small>
-        <div className=" mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8 p-1">
+        <div className=" p-2 mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{`Di tengah tren gaya hidup sehat, bersepeda semakin populer sebagai pilihan olahraga kardio, 
           terutama bagi kalangan muda yang berusaha menjaga kesehatan dan kebugaran.
           Dengan manfaat yang luas, mulai dari mengurangi stres hingga menjadi aktivitas yang bisa

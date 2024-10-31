@@ -1,18 +1,23 @@
-import React from 'react'
+import React from "react";
 
 export const NewsFood1 = () => {
   return (
     <>
-      <div className=' w-full flex flex-col gap-2 p-2 lg:p-2'>
-        <div className=' w-full h-96 flex'>
-          <img src="/image/imgfood1.jpg" className='w-full h-full' alt="" />
+      <div className=" w-full flex flex-col gap-2 p-2 lg:p-2">
+        <div className=" w-full h-64 lg:h-96 flex">
+          <img
+            src="/image/imgfood1.jpg"
+            className="w-full h-full"
+            alt=""
+          />
         </div>
         {/* gambar */}
-        <small className=' ml-1 lg:ml-0 text-sm text-gray-400 italic'>
-          Nasi beku bagus untuk pola makan dan konsumsi masyarakat
+        <small className=" ml-1 lg:ml-0 text-sm text-gray-400 italic">
+          Nasi beku bagus untuk pola makan dan
+          konsumsi masyarakat
         </small>
         {/* contecx */}
-        <div className=' mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8'>
+        <div className=" mt-3 p-2 flex justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{`meningkatnya popularitas nasi beku di kalangan konsumen 
           Dalam wawancara dengan rudy, seorang pelaku industri nasi beku, kami 
           menggali alasan di balik semakin populernya produk ini di masyarakat. Rudy 
@@ -62,7 +67,7 @@ export const NewsFood1 = () => {
             kesadaran masyarakat akan pentingnya bahan-bahan alami dan 
             pengurangan makanan olahan, yang semakin membuat nasi beku 
             relevan.`}</span>
-          <span className=''>{`Melihat ke depan, rudy optimis bahwa industri nasi beku akan terus 
+          <span className="">{`Melihat ke depan, rudy optimis bahwa industri nasi beku akan terus 
             berkembang. Ia percaya bahwa inovasi adalah kunci untuk memenuhi 
             kebutuhan konsumen. Dengan menghadirkan rasa baru, kemasan 
             menarik, dan cara distribusi yang lebih efisien, produk nasi beku bisa 
@@ -83,5 +88,5 @@ export const NewsFood1 = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
