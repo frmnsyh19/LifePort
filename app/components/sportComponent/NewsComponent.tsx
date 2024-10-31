@@ -25,7 +25,7 @@ const NewsComponent = () => {
             Bekerja
           </small>
         </div>
-        <div className=" w-full text-wrap mt-2 p-2 flex flex-col ">
+        <div className=" w-full text-wrap lg:mt-0 mt-1 lg:p-2 p-1 flex flex-col ">
           <span className="text-base text-neutral text-justify">
             Bagi banyak pekerja kantoran, duduk di
             depan komputer selama berjam-jam sudah

@@ -3,7 +3,7 @@ import React from "react";
 const NewsSport2 = () => {
   return (
     <>
-      <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+      <div className=" w-full flex flex-col p-0 lg:p-2">
         <div className=" w-full h-[25rem] lg:flex hidden">
           <img
             src="/image/newssport1.jpg"
@@ -22,7 +22,7 @@ const NewsSport2 = () => {
           Jogging Malam, Tren Sehat Baru di
           Kalangan Pekerja Mud
         </small>
-        <div className=" mt-3 flex p-2 justify-start flex-col gap-4 text-justify text-base leading-8">
+        <div className=" mt-2 flex lg:p-0 p-2 justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{` Jogging biasanya identik dengan aktivitas pagi hari, tetapi tren baru menunjukkan semakin
                   banyaknya orang yang memilih waktu malam untuk berolahraga. Bagi para pekerja kantoran,
                   jogging malam menjadi solusi untuk tetap bugar tanpa mengorbankan waktu kerja. Selain

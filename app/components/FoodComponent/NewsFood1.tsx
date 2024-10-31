@@ -3,7 +3,7 @@ import React from "react";
 export const NewsFood1 = () => {
   return (
     <>
-      <div className=" w-full flex flex-col gap-2 p-2 lg:p-2">
+      <div className=" w-full flex flex-col gap-1 p-1 lg:p-2">
         <div className=" w-full h-64 lg:h-96 flex">
           <img
             src="/image/imgfood1.jpg"
@@ -17,7 +17,7 @@ export const NewsFood1 = () => {
           konsumsi masyarakat
         </small>
         {/* contecx */}
-        <div className=" mt-3 p-2 flex justify-start flex-col gap-4 text-justify text-base leading-8">
+        <div className=" mt-1 p-1 lg:p-0 flex justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{`meningkatnya popularitas nasi beku di kalangan konsumen 
           Dalam wawancara dengan rudy, seorang pelaku industri nasi beku, kami 
           menggali alasan di balik semakin populernya produk ini di masyarakat. Rudy 

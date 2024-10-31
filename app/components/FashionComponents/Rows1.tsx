@@ -3,8 +3,8 @@ import React from "react";
 export const Rows1 = () => {
   return (
     <>
-      <div className=" w-full lg:w-[65%] p-2">
-        <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+      <div className=" w-full lg:w-[65%] p-1">
+        <div className=" w-full flex flex-col p-1 lg:p-2">
           <div className=" w-full h-96  lg:flex hidden">
             <img
               src="/fashion/kukufashion.jpg"
@@ -19,13 +19,13 @@ export const Rows1 = () => {
               alt=""
             />
           </div>
-          <small className=" ml-1 lg:ml-0 text-sm text-gray-400 italic">
+          <small className=" lg:ml-0 text-sm text-gray-400 italic">
             Kenapa Saat Ini Nail Art Menjadi Salah
             Satu Fashion Yang Menjadi Hal Wajib
             Untuk Wanita?
           </small>
         </div>
-        <div className=" w-full text-wrap mt-2 p-2 flex flex-col gap-4 text-base">
+        <div className=" w-full text-wrap p-1 lg:p-2 flex flex-col gap-4 text-base">
           <span className=" text-justify leading-8">
             Nail art identik dengan perempuan yang
             ingin mempercantik tampilan kuku

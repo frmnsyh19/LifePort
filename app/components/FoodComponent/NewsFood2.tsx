@@ -3,7 +3,7 @@ import React from "react";
 const NewsFood2 = () => {
   return (
     <>
-      <div className=" w-full flex flex-col gap-2 p-2 lg:p-2">
+      <div className=" w-full flex flex-col gap-2 p-1 lg:p-2">
         <div className=" w-full h-60 lg:h-96 flex">
           <img
             src="/image/Telor.jpg"
@@ -17,7 +17,7 @@ const NewsFood2 = () => {
           diet
         </small>
         {/* contecx */}
-        <div className=" mt-3 p-2 flex justify-start flex-col gap-4 text-justify text-base">
+        <div className=" mt-1 lg:p-0 p-1 flex justify-start flex-col gap-4 text-justify text-base">
           <span className=" text-justify leading-8">
             Siapa sangka, telur rebus yang
             sederhana ternyata menyimpan segudang

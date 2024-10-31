@@ -6,7 +6,7 @@ export const NewsSport = () => {
   return (
     <>
       {/* news1 */}
-      <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+      <div className=" w-full flex flex-col p-0 lg:p-2">
         <div className=" w-full h-[25rem] lg:flex hidden">
           <img
             src="/image/sportnews1.jpg"
@@ -25,7 +25,7 @@ export const NewsSport = () => {
           bersepeda adalah olahraga kardio yang
           lebih bagus dari pada lari apakah benar?
         </small>
-        <div className=" p-2 mt-3 flex justify-start flex-col gap-4 text-justify text-base leading-8">
+        <div className="p-2 mt-1 lg:p-0 flex justify-start flex-col gap-4 text-justify text-base leading-8">
           <span>{`Di tengah tren gaya hidup sehat, bersepeda semakin populer sebagai pilihan olahraga kardio, 
           terutama bagi kalangan muda yang berusaha menjaga kesehatan dan kebugaran.
           Dengan manfaat yang luas, mulai dari mengurangi stres hingga menjadi aktivitas yang bisa

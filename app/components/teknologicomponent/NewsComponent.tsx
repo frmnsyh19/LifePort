@@ -3,8 +3,8 @@ import React from "react";
 const NewsComponent = () => {
   return (
     <>
-      <div className=" w-full lg:w-[65%] p-2">
-        <div className=" w-full flex flex-col gap-2 p-0 lg:p-2">
+      <div className=" w-full lg:w-[65%]">
+        <div className=" w-full flex flex-col gap-1 p-0 lg:p-2">
           <div className=" w-full h-96 lg:flex hidden">
             <img
               src="/image/teknologilanscape.jpg"
@@ -24,7 +24,7 @@ const NewsComponent = () => {
             untuk Monitoring Kesehatan Sehari-hari
           </small>
         </div>
-        <div className=" w-full text-wrap mt-2 p-3 flex flex-col gap-3 text-base">
+        <div className=" w-full text-wrap p-2 flex flex-col gap-3 text-base">
           <span className=" text-justify leading-8">
             Bagi banyak Gen Z, teknologi sudah
             menjadi bagian tak terpisahkan dari
