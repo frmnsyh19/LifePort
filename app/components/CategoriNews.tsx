@@ -12,7 +12,7 @@ export const CategoriNews = () => {
         <div className=" w-full p-2 flex flex-col gap-1">
           <div className=" w-full h-12 items-center bg-slate-200 hover:bg-slate-300 justify-between flex p-2">
             <span className=" text-base text-neutral">
-              Heathly
+              Healthy
             </span>
             <span className=" mr-1 text-end">
               1
