@@ -33,7 +33,7 @@ const AboutHeade = () => {
             </span>
             <span className=" text-justify text-wrap text-base text-gray-500">
               <span className=" text-lg  font-bold text-indigo-800">
-                Tema Rubrik Berita Healthy,
+                Tema Rubrik Berita,
               </span>{" "}
               <br />
               Healthy, Technology, Sport, Food &
