@@ -56,7 +56,7 @@ body {
 }
 
 #content2 {
-  background-image: url("/image/food.jpg");
+  background-image: url("/image/technology.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
   background-size: cover;
@@ -72,6 +72,14 @@ body {
 }
 
 #content4 {
+  background-image: url("/image/food.jpg");
+  background-repeat: no-repeat; /* Gambar tidak akan berulang */
+  background-position: center;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#content5 {
   background-image: url("/image/fashion.jpg");
   background-repeat: no-repeat; /* Gambar tidak akan berulang */
   background-position: center;
